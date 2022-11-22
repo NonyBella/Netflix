@@ -1,23 +1,108 @@
-body{
-    
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
 }
 
-.first-page{
+.first-page {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url("./images/background.jpg")
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.4)),
+        url("./images/background.jpg");
+    background-size: cover;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
-    
-     
-     
-     
 }
-.first-page img{
+
+.nav img {
     width: 100px;
+    margin: 20px;
+}
+
+.nav button {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+    background-color: red;
+    border-radius: 5px;
+    border-color: red;
+    color: white;
+    font-size: 16px;
+
+}
+
+.unlimited {
+    position: relative;
+    left: 500px;
+    top: 70px;
+    width: 700px;
+    padding: 10px;
+}
+
+.unlimited h1 {
+    font-size: 2rem;
+    font-size: 50px;
+}
+.unlimited div{
+    display: flex;
+}
+
+.unlimited  input {
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    border-color: white;
+    margin: 0;
+}
+
+ .unlimited button {
+    width: 135px;
+    height: 55px;
+    background-color: red;
+    border-color: red;
+    margin: 0;
+}
+
+hr {
+    border: 3px solid gray
+}
+
+
+.second-section {
+    display: flex;
+    height: 500px;
+
+}
+
+.second-section>div:first-child {
+    width: 35%;
+    margin: 100px;
     
+}
+
+.show-tv {
+    position: relative;
+}
+
+.show-tv img,
+.show-tv video {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.show-tv video {
+    top: 70px;
+    width: 500px;
+    left: 81px;
+    height: 288px;
+}
+.third-section{
+    display: flex;
 }
