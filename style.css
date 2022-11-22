@@ -1,0 +1,23 @@
+body{
+    
+}
+
+.first-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("./images/background.jpg")
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+     
+     
+     
+}
+.first-page img{
+    width: 100px;
+    
+}
