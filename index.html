@@ -24,7 +24,7 @@
             </span>
             <div>
                 <input type="email" placeholder="Email address" required>
-                <button>Get Started</button>
+                <button>Get Started › </button>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
             </div>
             <div class="show-tv">
                 
-                <video controls autoplay="True" loop>
+                <video  controls autoplay="True" loop type="m4v">
                         <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v">
                 </video>
                 <img src="/images/tv.png" alt="tv">
@@ -55,12 +55,15 @@
             <div>
                 <img src="/images/telephone.jpg" alt="">
                 <button>
-                    <img src="/images/boxshot.png" alt="">
-                    <span>Stranger Things</span>
-                    <a href="#">Downloading ...⬇️</a>  
+                    <img class="box" src="/images/boxshot.png" alt="">
+                    <small>stranger things</small>
+                    <small>Downloading</small>
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif
+                    " alt="">
+                     
                 </button>
             </div>
-            <div>
+            <div class="third-section-text">
                 <h1>Download your shows to watch offline.</h1>
                 <p>
                     Save your favorites easily and always have something to watch.
@@ -70,7 +73,7 @@
 
         <hr>
 
-        <div>
+        <div class="fourth-section">
             <h1>Watch everywhere.</h1>
             <p>
                 Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
@@ -79,72 +82,130 @@
 
         <hr>
 
-        <div>
+        <div class="third-section">
             <div>
+                <img src="/images/kids.png" alt="kids"> 
+            </div>
+            <div class="third-section-text">
                 <h1>Create profiles for kids.</h1>
                 <p>
                     Send kids on adventures with their favorite characters in a space made just for them—free with your
                     membership.
                 </p>
-            </div>
-            <div>
-                <img src="/images/kids.png" alt="kids">
+                
             </div>
         </div>
 
         <hr>
 
         <div>
-            <div>
-                <h1>Frequently Asked Questions</h1>
-
-                <div>
-                    <span>What is Netflix? </span>
-                    <span>+</span>
+            <div class="sixth-section">
+                <div class="section-summary">
+                    <h1> Frequently Asked Questions</h1>
+                    <details>
+                       <summary style="display: block;">
+                           <div class="FAQ">
+                                <span>what is Netflix?</span>
+                                <span>+</span>
+                           </div>
+                       </summary> 
+                       <p>
+                        Netflix is a streaming service that offers a wide variety of award-winning TV shows, 
+                        movies, anime, documentaries, and more on thousands of internet-connected devices.
+                       </p>
+                    </details>
+                    <details>
+                       <summary>
+                           <div class="FAQ">
+                               <span>How much does Netflix cost?</span>
+                               <span>+</span>
+                           </div>
+                       </summary>
+                       <p>
+                        Watch Netflix on your smartphone, tablet, Smart TV, laptop
+                         or streaming device, all for one fixed monthly fee.
+                         Plans range from ₦1,200 to ₦4,400 a month. No extra costs, no contracts.  
+                       </p> 
+                    </details>
+                    <details>
+                        <summary>
+                            <div class="FAQ">
+                                <span>Where can I watch?</span>
+                                <span>+</span>
+                            </div>
+                        </summary>
+                        <p>
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch 
+                            instantly on the web at netflix.com from your personal computer or
+                             on any internet-connected device that offers the Netflix app, 
+                            including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                        </p>
+                    </details>
+                    <details>
+                            <summary>
+                                <div class="FAQ">
+                                    <span>How do I cancel?</span>
+                                    <span>+</span>
+                                </div>
+                            </summary>
+                            <p>
+                                Netflix is flexible. There are no pesky contracts and no commitments.
+                                You can easily cancel your account online in two clicks.
+                                There are no cancellation fees,start or stop your account anytime.   
+                            </p>
+                    </details>   
+                    <details>
+                        <summary>
+                            <div class="FAQ">
+                                <span>What can I watch on Netflix?</span>
+                                <span>+</span>
+                            </div>
+                        </summary>
+                        <p>
+                            Netflix has an extensive library of feature films, documentaries, TV shows,
+                             anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want. 
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            <div class="FAQ">
+                                <span>Is Netflix good for kids?</span>
+                                <span>+</span>
+                            </div>
+                        </summary>
+                        <p>
+                            The Netflix Kids experience is included in your membership to give parents
+                             control while kids enjoy family-friendly TV shows and movies in their own space.
+     
+                        </p>
+                    </details>
+                    
+    
                 </div>
-                <div>
-                    <span> How much does Netflix cost?</span>
-                    <span>+</span>
-                </div>
-                <div>
-                    <span>What can I watch on Netflix? </span>
-                    <span>+</span>
-                </div>
-                <div>
-                    Where can I watch?
-                    <span>+</span>
-                </div>
-                <div>
-                    How do I cancel?
-                    <span>+</span>
-                </div>
-                <div>
-                    What can I watch on Netflix?
-                    <span>+</span>
-                </div>
-                <div>
-                    Is Netflix good for kids?
-                    <span>+</span>
-                </div>
-
             </div>
-            <div>
-                <h4>
+            <div class="ready-to-watch">
+                <p>
                     Ready to watch?
                     Enter your email to create or restart your membership.
-                </h4>
-                <input type="email" placeholder="Email address" required>
-                <button>Get Started ›</button>
+                </p>
+                <div>
+                    <input type="email" placeholder="Email address" required>
+                    <button>Get Started ›</button>
+                </div>
             </div>
         </div>
 
         <hr>
 
-        <div>
-            <p>
-                <a href="#">Questions? Contact us.</a>
-            </p>
+        <div class="seventh-section">
             <div>
+                <span>
+                    <a href="#">
+                    Questions? Contact us.
+                    </a>
+                </span>
+            </div>
+            <div class="sub-seventh-section">
                 <div>
                     <ul>
                         <li>
@@ -208,7 +269,10 @@
                 </div>
             </div>
             <footer>
-                Netflix Nigeria
+                <span>
+                    Netflix Nigeria
+
+                </span>
             </footer>
         </div>
     </div>
