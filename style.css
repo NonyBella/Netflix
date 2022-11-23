@@ -39,15 +39,17 @@ body {
 
 .unlimited {
     position: relative;
-    left: 500px;
-    top: 70px;
+    margin: auto;
     width: 800px;
     padding: 10px;
+    text-align: center;
+    line-height: 2;
 }
 
 .unlimited h1 {
     font-size: 2rem;
     font-size: 50px;
+
 }
 
 .unlimited div {
@@ -55,7 +57,7 @@ body {
 }
 
 input {
-    width: 500px;
+    width: 600px;
     height: 60px;
     background-color: white;
     border-color: white;
@@ -64,7 +66,7 @@ input {
 }
 
 button {
-    width: 150px;
+    width: 200px;
     height: 68px;
     background-color: red;
     border-color: red;
