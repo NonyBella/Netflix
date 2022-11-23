@@ -130,6 +130,11 @@ hr {
 
 .box {
     height: 80px;
+    margin-left: o;
+}
+
+small {
+    color: black;
 }
 
 .fourth-section {
@@ -172,48 +177,53 @@ summary {
 
 .ready-to-watch p {
     font-size: 16px;
-    margin-left: 35%;
+    margin-left: 400px;
     font-size: 20px;
+    margin-bottom: 0;
 
 
 }
 
 .ready-to-watch div {
     display: flex;
-    margin-left: 35%;
+    margin-left: 350px;
     padding: 40px;
     width: 80%;
 
 }
+
 .seventh-section {
     margin: 15px;
 }
-.seventh-section > div:first-child a , footer span{
- margin-left: 25px;
- font-size: 15px;
- text-decoration: none;
- color:rgb(91, 87, 87);
+
+.seventh-section>div:first-child a,
+footer span {
+    margin-left: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(91, 87, 87);
 }
 
 .sub-seventh-section {
     display: flex;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .seventh-section a {
-    color:rgb(91, 87, 87);
+    color: rgb(91, 87, 87);
 }
 
 .sub-seventh-section li {
     margin: 12px;
     font-weight: bold;
-} 
-
-
-ul li{
-   list-style-type: none;
 }
-li a{
+
+
+ul li {
+    list-style-type: none;
+}
+
+li a {
     text-decoration: none;
-    
+
 }
